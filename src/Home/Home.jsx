@@ -7,7 +7,7 @@ function Home() {
     <div className="bcg">
       <div className="games-title">Dzień dobry Polsko</div>
       <div className="btn-home">
-      Allah
+      Sky jest wspaniały
       </div> 
     </div>
   );

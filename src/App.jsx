@@ -27,7 +27,7 @@ import Error404 from "./HTTP/Error404/Error404";
 import './App.css';
 
 function App() {
-  const { isLoggedIn, isAuthenticated } = useAuth();
+  // const { isLoggedIn, isAuthenticated } = useAuth();
 
   useEffect(() => {
     const preferredLanguage =
@@ -41,16 +41,10 @@ function App() {
     root.setAttribute("data-theme", savedDarkMode ? "dark" : "light");
   }, []);
 
-  // const isAuthenticated = false;
-  // const isAuthenticated = true;
-
-  // console.log(`App.js -> isLoggedIn: ${isLoggedIn}`);
-  // console.log(`App.js -> isAuthenticated: ${isAuthenticated()}`);
-
   return (
     <Router>
       <>
-      {isAuthenticated() ? (
+      {/* {isAuthenticated() ? ( */}
         <div style={{ display: "flex", height: "100vh" }}>
           <Menu />
           <div style={{ flex: 1 }}>
@@ -77,14 +71,14 @@ function App() {
             </Routes>
           </div>
         </div>
-      ) : (
+      {/* ) : (
         <Routes>
           <Route path="/" element={<Navigate to="/login" />} />
           <Route path="/logout" element={<Navigate to="/login" />} />
           <Route path="/login" element={<Login />} index/>
           <Route path="*" element={<Error404 />} />
         </Routes>
-      )}
+      )} */}
       </>
     </Router>
   );
