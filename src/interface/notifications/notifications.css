@@ -1,0 +1,86 @@
+.notificationsModal {
+    position: absolute;
+    top: 15%;
+    right: 100px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background: var(--S2);
+    width: 300px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .notification-main {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    overflow-y: auto;
+    height: 440px;
+    scrollbar-width: thin; /* Grubość paska przewijania dla Firefoxa */
+    scrollbar-color: #575757 #6c6c6c;
+}
+
+  .not-main{
+    display: flex;
+    flex-direction: column;
+    border-radius: 2px;
+    padding: 5px;
+  }
+  .not-main div{
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;    
+  }
+
+  .notification-main .not-main:nth-child(even) {
+    background-color: #237291;
+  }
+  
+  .notification-main .not-main:nth-child(odd) {
+    background-color: #147c73;
+  }
+  
+
+
+  .notification-main::-webkit-scrollbar {
+    width: 6px;
+}
+
+.notification-main::-webkit-scrollbar-thumb {
+    background-color: #bcbcbc; /* Kolor paska przewijania dla Chrome i Safari */
+}
+
+.notification-main::-webkit-scrollbar-track {
+    background-color: #6c6c6c; /* Kolor tła paska przewijania dla Chrome i Safari */
+}
+.btn-close2{
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--bg-color);
+    transition: color 0.2s; 
+}
+
+.btn-close2:hover {
+  color: var(--red);
+}
+.bbn{
+  padding: 0px 10px 0px 10px;
+}
+
+.btn-open{
+  transform: translateY(1px);
+  background-color: #1a202c;
+  color: azure;
+}
+.ffs{
+  position: absolute;
+  top: 50%;
+  width: 400px;
+  height: 200px;
+
+}

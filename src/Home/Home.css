@@ -1,0 +1,32 @@
+.home-window {
+   display: flex;
+}
+
+.home-window {
+   width: 200px;
+}
+
+.bo {
+   border: 1px solid black;
+}
+
+.img-s {
+   width: 200px;
+}
+.btn-home > button{
+   padding: 15px;
+}
+.bcg {
+   width: 100%;
+   height: 100%;
+   background-repeat: no-repeat;
+   background-position: center;
+   /* background-image: url(../img/logo.png); */
+   background-image: url(../img/logos-main.jpg);
+   /* background-position-x: left; */
+   /* background-position-y: bottom; */
+   
+   /* background-size: 100% 100%; */
+   /* background-size: 100% auto; */
+   /* background-size: contain; */
+}

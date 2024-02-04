@@ -1,0 +1,60 @@
+{
+  "language": "Język",
+  "subscribed": "Obserwowane",
+  "messages": "Wiadomości",
+  "notifications": "Powiadomienia",
+  "cart": "Koszyk",
+  "yourAccount": "Twoje konto",
+  "chooseLanguage": "Wybierz język",
+  "categories": "Kategorieeee",
+  "addAdvertisement": "Dodaj ogłoszenie",
+  "promotedAds": "Ogłoszenia promowane",
+  "cookie": "Ciasteczka",
+  "generalSettings": "Ustawienia ogólne",
+  "AppearanceSettings": "Wygląd",
+  "SelectLanguage": "Wybierz język",
+  "games": "Gry",
+  "test": "Test",
+  "manageYourAccount": "Zarządzaj kontem",
+  "contentPreferences": "Preferencje zawartości",
+  "dataAndHistoryManagement": "Zarządzanie danymi i historią",
+  
+  
+  
+  "settings": "Ustawienia",
+  "back": "Cofnij",
+  "logout": "Wyloguj się",
+  "login": "Zaloguj się",
+  "shop": "Sklep",
+  "home": "Strona głowna",
+  "Notifications": "Powiadomienia",
+  "youHave": "Masz",
+  "newNotificationS": "powiadomień",
+  "search": "Wyszukaj...",
+  "menu": "Menu",
+  "explore": "Przeglądaj",
+  "resources": "Listy",
+  "starred": "Zakładki",
+
+  
+  
+  "info": "INFO",
+  "error": "BŁĄD",
+  "time": "CZAS",
+  "desc": "OPIS",
+  
+  
+   "cookieDescription": {
+  "preferences": "Preferencje",
+  "title": "Ustawienia Prywatności",
+  "marketing": "Marketing",
+  "subtitle": "Dostosuj swoje doświadczenie",
+  "essential": "Niezbędne pliki cookie",
+  "statistics": "Statystyki odwiedzin",
+  "others": "Inne ustawienia"
+}
+
+
+
+}
+

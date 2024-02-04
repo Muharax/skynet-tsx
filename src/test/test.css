@@ -1,0 +1,42 @@
+/* Styl CSS dla komponentu Tweet */
+.tweet-container {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  max-width: 400px;
+}
+
+.tweet-content textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  resize: none; /* Wyłącz możliwość zmiany rozmiaru textarea */
+  overflow-y: auto; /* Dodaj pasek przewijania, gdy tekst się przekracza */
+}
+
+.tweet-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.send-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.icon {
+  font-size: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.bookmarked {
+  color: #f00; /* Kolor zmieniany dla oznaczenia, że post jest w zakładkach */
+}

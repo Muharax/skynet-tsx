@@ -1,0 +1,47 @@
+{
+  "language": "Language",
+  "subscribed": "Subscribed",
+  "messages": "Messages",
+  "notifications": "Notifications",
+  "cart": "Cart",
+  "yourAccount": "Your Account",
+  "chooseLanguage": "Choose Language",
+  "categories": "Categories",
+  "addAdvertisement": "Add Advertisement",
+  "promotedAds": "Promoted Ads",
+  "cookie": "Cookies",
+  "generalSettings": "General Settings",
+  "AppearanceSettings": "Appearance",
+  "SelectLanguage": "Select Language",
+  "games": "Games",
+  
+  "settings": "Settings",
+  "back": "Back",
+  "logout": "Logout",
+  "login": "Login",
+  "shop": "Shop",
+  "home": "Home",
+  "Notifications": "Notifications",
+  "youHave": "You have",
+  "newNotificationS": "new notifications",
+  "search": "Search...",
+  "menu": "Menu",
+  "explore": "Explore",
+  "resources": "Resources",
+  "starred": "Starred",
+  
+  "info": "INFO",
+  "error": "ERROR",
+  "time": "TIME",
+  "desc": "DESCRIPTION",
+  
+  "cookieDescription": {
+    "preferences": "Preferences",
+    "title": "Privacy Settings",
+    "marketing": "Marketing",
+    "subtitle": "Customize your experience",
+    "essential": "Essential cookies",
+    "statistics": "Statistics",
+    "others": "Other settings"
+  }
+}

@@ -1,0 +1,62 @@
+.ios {
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  background-color: var(--S2);
+  color: white;
+  border: 1px solid var(--red);
+  border-radius: 7px;
+  box-shadow: 1px 1px 7px 1px red;
+  overflow: hidden;
+  /* animation: rotateBorder 10s linear infinite; */
+}
+.cookie-link{
+  text-decoration: none;
+  color: var(--yellow);
+}
+.cookie-link:hover{
+  text-decoration: underline;
+}
+
+@keyframes rotateBorder {
+  0% {
+    /* transform: rotate(-5deg); */
+    /* box-shadow: 1px 1px 20px 5px red; */
+  }
+  50% {
+    /* transform: rotate(0deg); */
+    /* box-shadow: 1px 1px 10px 15px rgb(22, 239, 10); */
+  }
+  100% {
+    /* transform: rotate(-5deg); */
+    /* box-shadow: 1px 1px 20px 5px red; */
+  }
+}
+
+.content-ios {
+  padding: 20px;
+}
+
+.close {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--bg-color);
+  transition: 200ms;
+}
+
+.close:hover {
+  font-size: 24px;
+  color: var(--red);
+}
+
+.ios a:active {
+  color: rgb(247, 255, 8);
+}
+
+.ios a:visited {
+  color: rgb(121, 121, 70);
+}

@@ -1,0 +1,15 @@
+.ffa {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px;
+  /* background-image: url(../img/Blackjack-Low.jpg); */
+  /* background-repeat: no-repeat; */
+  /* background-size: 100% auto; */
+  border: 1px solid var(--primary);
+  height:100%;
+}
+
+.ffa1{
+  /* display: flex; */
+}

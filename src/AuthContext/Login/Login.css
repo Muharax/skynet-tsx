@@ -1,0 +1,123 @@
+.LOGOWANIE {
+  min-width: 250px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--search);
+  border-radius: 5px;
+  justify-content: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 20px 3px var(--primary);
+  align-items: center;
+}
+.LG{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logos {
+  background-color: #000;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  width: 210px;
+}
+
+#logowanie-s {
+  margin-top: 30px;
+}
+
+
+
+.logos-SWG {
+  margin: 20px;
+  object-fit: contain;
+  width: 130px;
+
+  animation: pulse 2s infinite;
+}
+
+.error-message{
+  position: relative;
+  top: -25px;
+}
+.show {
+  display: block;
+}
+
+.close-btn {
+  width: 40px;
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.close-btn span {
+  cursor: pointer;
+
+}
+
+.close-btn span:hover {
+  color: red
+}
+
+.close-btn:hover {
+
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+
+}
+
+.name,
+.pass {
+  display: flex;
+  align-items: center;
+}
+
+.name input,
+.pass input {
+  margin-left: 4px;
+}
+
+.GPSROP{
+  font-family: monospace;
+}
+.rop{
+  width: 200px;
+  position: relative;
+  top: -20px;
+}
+.skynet-division{
+  width: 233px;
+  box-shadow: 0px 0px 5px 1px black;
+  position: relative;
+  bottom: -40px;
+  opacity: 0.3;
+  transition: 0.2s;
+  cursor: help;
+}
+.skynet-division:hover{
+  opacity: 1;
+}
+
+@keyframes pulse {
+  0% {
+    filter: drop-shadow(0px 0px 13px rgba(0, 0, 0, 0.7));
+    /* box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.7); */
+  }
+  50% {
+    filter: drop-shadow(0px 0px 13px rgba(0, 255, 255, 0.7));
+    /* box-shadow: 0 0 0 15px rgba(255, 0, 0, 0); */
+  }
+  100% {
+    filter: drop-shadow(0px 0px 13px rgba(0, 0, 0, 0.7));
+    /* box-shadow: 0 0 0 15px rgba(255, 0, 0, 0); */
+  }
+}

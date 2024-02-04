@@ -1,0 +1,46 @@
+{
+  "language": "Tungumál",
+  "subscribed": "Áskrift",
+  "messages": "Skilaboð",
+  "notifications": "Tilkynningar",
+  "cart": "Karfa",
+  "yourAccount": "Þitt aðgangur",
+  "chooseLanguage": "Veldu tungumál",
+  "categories": "Flokkar",
+  "addAdvertisement": "Bæta auglýsingu við",
+  "promotedAds": "Staða auglýsinga",
+  "cookie": "Smákökur",
+  "generalSettings": "Almennar stillingar",
+  "AppearanceSettings": "Útlit",
+  "SelectLanguage": "Veldu tungumál",
+  
+  "settings": "Stillingar",
+  "back": "Aftur",
+  "logout": "Útskrá",
+  "login": "Innskrá",
+  "shop": "Verslun",
+  "home": "Heim",
+  "Notifications": "Tilkynningar",
+  "youHave": "Þú átt",
+  "newNotificationS": "nýjar tilkynningar",
+  "search": "Leita...",
+  "menu": "Valmynd",
+  "explore": "Rannsaka",
+  "resources": "Heimildir",
+  "starred": "Stjörnumerkt",
+  
+  "info": "Upplýsingar",
+  "error": "Villa",
+  "time": "Tími",
+  "desc": "Lýsing",
+  
+  "cookieDescription": {
+    "preferences": "Stillingar",
+    "title": "Persónuverndarstillingar",
+    "marketing": "Markaðssetning",
+    "subtitle": "Sérsníðu upplifun þína",
+    "essential": "Nauðsynlegar smákökur",
+    "statistics": "Tölfræði",
+    "others": "Aðrar stillingar"
+  }
+}

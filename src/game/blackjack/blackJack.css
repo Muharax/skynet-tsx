@@ -1,0 +1,67 @@
+.blackjack-outside {
+   width: 100%;
+   height: 100%;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.btn-blackjack-start{
+   width: 100%;
+   margin-bottom: 5px;
+}
+
+.crupier-card{
+   position: relative;
+   left: -77px;
+}
+
+.crupier-card2{
+   position: relative;
+    left: -152px;
+}
+
+.crupier-div{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   /* position: relative; */
+    /* right: -75px; */
+}
+.player-div{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.player-div-name, .crupier-div-name{
+   /* width: 100%; */
+   padding: 10px;
+   background-color: bisque;
+}
+
+.blackjack-msg{
+   background-color: black;
+   color: white;
+   padding: 10px;
+   width: 300px;
+   text-align: center;
+   border-radius: 5px;
+   margin: 10px 0px 10px 10px;
+   position: absolute;
+   left: 100px;
+   top: 80px;
+}
+
+.flex {
+   display: flex;
+}
+.wrap{
+   flex-wrap: wrap;
+}
+
+.deck {
+   display: flex;
+   flex-wrap: wrap;
+}

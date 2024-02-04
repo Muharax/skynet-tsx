@@ -1,0 +1,26 @@
+.ReactFlagsSelect-module_selectBtn__19wW7 {
+  background-color: var(--search)!important;
+  color: var(--font-color)!important;
+}
+.ReactFlagsSelect-module_selectBtn__19wW7:hover {
+  color: var(--secondary)!important;
+}
+
+.ReactFlagsSelect-module_flagsSelect__2pfa2{
+  padding: 0px!important;
+}
+/* .select-wrapper{
+  background-color: black;
+} */
+
+.language-selector {
+  display: flex;
+  align-items: center;
+}
+
+.ReactFlagsSelect-module_selectOptions__3LNBJ{
+  background-color:var(--primary)!important;
+}
+.ReactFlagsSelect-module_selectOption__3pcgW:hover{
+  background-color: black!important;
+}
