@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/skynet-tsx/static/css/main.b8ab44d7.css",
-    "main.js": "/skynet-tsx/static/js/main.d42ee0f8.js",
+    "main.js": "/skynet-tsx/static/js/main.594d8556.js",
     "static/js/592.686ce5d5.chunk.js": "/skynet-tsx/static/js/592.686ce5d5.chunk.js",
     "static/media/gif.gif": "/skynet-tsx/static/media/gif.dcfd43725d74759f5de5.gif",
     "static/media/logos-main.jpg": "/skynet-tsx/static/media/logos-main.405b6133614a66edc12b.jpg",
@@ -47,11 +47,11 @@
     "static/media/5D.png": "/skynet-tsx/static/media/5D.76399605370b7a54f039.png",
     "index.html": "/skynet-tsx/index.html",
     "main.b8ab44d7.css.map": "/skynet-tsx/static/css/main.b8ab44d7.css.map",
-    "main.d42ee0f8.js.map": "/skynet-tsx/static/js/main.d42ee0f8.js.map",
+    "main.594d8556.js.map": "/skynet-tsx/static/js/main.594d8556.js.map",
     "592.686ce5d5.chunk.js.map": "/skynet-tsx/static/js/592.686ce5d5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b8ab44d7.css",
-    "static/js/main.d42ee0f8.js"
+    "static/js/main.594d8556.js"
   ]
 }
