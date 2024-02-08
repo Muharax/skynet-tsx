@@ -1,6 +1,6 @@
 {
   "short_name": "SKYNET",
-  "name": "Muharax Systems",
+  "name": "SKYNET DIVISION",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#d5d5d5"
+  "theme_color": "black",
+  "background_color": "lime"
 }
